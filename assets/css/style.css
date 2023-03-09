@@ -120,3 +120,16 @@ section p, footer p {
 	color: black;
 	background-color: white;
 }
+
+.backtop a {
+	display: block;
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	color: #580202;
+	font-size: 50px;
+}
+
+.backtop a:hover {
+	color: white;
+}
