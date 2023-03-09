@@ -30,6 +30,8 @@ header .navbar ul li a {
 	display: inline-block;
 	padding: 10px 10px;
 	color: white;
+	border-radius: 10px;
+	transition: all 0.5s;
 }
 
 header .navbar ul li a:hover {
@@ -116,6 +118,8 @@ section p, footer p {
 	display: inline-block;
 	padding: 10px 10px;
 	color: white;
+	border-radius: 10px;
+	transition: all 0.5s;
 }
 
 #redes a:hover {
@@ -130,6 +134,7 @@ section p, footer p {
 	right: 30px;
 	color: #580202;
 	font-size: 50px;
+	transition: all 0.5s;
 }
 
 .backtop a:hover {
