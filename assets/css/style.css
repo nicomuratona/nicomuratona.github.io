@@ -1,3 +1,5 @@
+@import "style_light.css";
+
 body {
 	background-color: #1C1C1C;
 	height: 100%;
@@ -132,4 +134,57 @@ section p, footer p {
 
 .backtop a:hover {
 	color: white;
+}
+
+/* Dark mode Switcher */
+
+.lightModeSwitch {
+	background: #1C1C1C;
+	display:flex;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	border-radius: 1rem;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.lightModeSwitch span{
+	width:30px;
+	line-height:30px;
+	display:block;
+	color:#fff;
+
+	background: none;
+}
+
+.lightModeSwitch::after{
+	display:block;
+	background: black;
+	width: 1.9rem;
+	height: 1.9rem;
+	position: absolute;
+	top:0;
+	left:0;
+	right:unset;
+	border-radius: 3rem;
+	transition: all .5s ease;
+
+	content: "";
+}
+
+.lightModeSwitch.active{
+	background: #888888;
+	color: black;
+}
+
+.lightModeSwitch.active span{
+	color: black;
+}
+
+.lightModeSwitch.active::after{
+	left:unset;
+	right:0;
+	background: white;
 }

@@ -1,0 +1,58 @@
+body.light {
+	background-color: white;
+}
+
+/************** header **************/
+
+body.light header .navbar {
+	background: rgba(220,220,220,0.5);
+}
+
+body.light header .navbar ul li a {
+	color: black;
+}
+
+body.light header .navbar ul li a:hover {
+	color: white;
+	background-color: black;
+}
+
+/************** section **************/
+
+body.light section h2 {
+	color: #1C1C1C;
+}
+
+body.light section p, body.light footer p {
+	color: #1C1C1C;
+}
+
+/************** Sección proyectos **************/
+
+body.light #proyectos {
+	background: rgb(208,152,152);
+	background: linear-gradient(180deg, rgba(208,152,152,1) 0%, rgba(230,230,230,1) 100%);
+}
+
+/************** Sección redes **************/
+
+body.light #redes {
+	background: rgb(255,255,255);
+}
+
+body.light #redes a {
+	color: black;
+}
+
+body.light #redes a:hover {
+	color: white;
+	background-color: black;
+}
+
+body.light .backtop a {
+	color: darkslategray;
+}
+
+body.light .backtop a:hover {
+	color: black;
+}
