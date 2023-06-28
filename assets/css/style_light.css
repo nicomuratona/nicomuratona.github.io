@@ -30,8 +30,8 @@ body.light section p, body.light footer p {
 /************** Sección proyectos **************/
 
 body.light #proyectos {
-	background: rgb(208,152,152);
-	background: linear-gradient(180deg, rgba(208,152,152,1) 0%, rgba(230,230,230,1) 100%);
+	background: rgb(130,130,130);
+	background: linear-gradient(180deg, rgba(130,130,130,1) 0%, rgba(220,220,220,1) 100%);
 }
 
 /************** Sección redes **************/
